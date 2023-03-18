@@ -1,4 +1,3 @@
-```Lua
 function calculateSoundOcclusion(listenerPosition, soundSourcePosition)
 	-- Create a ray from the listener to the sound source
 	local raycastResults = PenetrativeRaycast(listenerPosition, CFrame.new(listenerPosition,soundSourcePosition).LookVector)
@@ -39,4 +38,3 @@ This can be achieved by using a table of materials and their respective occlusio
 The function will return the occlusion as a float.
 
 --]]
-```
